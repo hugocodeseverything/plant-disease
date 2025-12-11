@@ -2,13 +2,24 @@
 
 **Member Of The Group:**
 - Hugo Sachio Wijaya (2702261151) (Main Contributor)
+
   Tugas:
+
   -Membuat Model Densenet, Training, dan Validasi
+
   -Membuat app.py
+
   -Membuat file requirements
+
   -Menulis readme.md
-- Erick Susanto (2702277710) (Side Contributor -> menentukan ide, membantu programming)
-- Ergi Hendrarto Putra (2702351696) (Side Contributor -> menentukan ide, membantu programming)
+  
+- Erick Susanto (2702277710)
+
+(Side Contributor -> menentukan ide, membantu programming)
+
+- Ergi Hendrarto Putra (2702351696)
+
+(Side Contributor -> menentukan ide, membantu programming)
 
 **1.Pembukaan**
 
