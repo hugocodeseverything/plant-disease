@@ -1,7 +1,7 @@
 **Plant Disease Detection Project**
 
 **Member Of The Group:**
-- Hugo Sachio Wijaya (2702261151) (Main Contributor)
+- Hugo Sachio Wijaya (2702261151) (Contributor)
 
   Tugas:
 
@@ -13,13 +13,19 @@
 
   -Menulis readme.md
   
-- Erick Susanto (2702277710)
+- Erick Susanto (2702277710)  (Contributor) :
+menentukan ide,
 
-(Side Contributor -> menentukan ide, membantu programming)
+membantu programming, 
 
-- Ergi Hendrarto Putra (2702351696)
+membuat final report 
 
-(Side Contributor -> menentukan ide, membantu programming)
+- Ergi Hendrarto Putra (2702351696) (Contributor)
+-> menentukan ide,
+
+   membantu programming,
+
+   membuat final report
 
 **1.Pembukaan**
 
