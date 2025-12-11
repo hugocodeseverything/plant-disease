@@ -24,8 +24,10 @@
 **2.Project Structure**
 
 │
+
 ├── app.py                     
 ├── densenet121_plant_disease.h5
+
 ├── deep_learning_project_final.py   
 ├── README.md              
 ├── .gitignore   
@@ -71,7 +73,7 @@ Pada streamlit, yang perlu dilakukan hanyalah memasukan gambar tanaman
 berupa file jpeg, jpg, atau png dan klik run dan akan tertera confident rate
 dan nama penyakit tanaman atau tanaman sehat.
 
-**6.Fitur yang tersedia **
+**6.Fitur yang tersedia**
 
 Fitur:
 Upload gambar
@@ -85,6 +87,7 @@ Model inference cepat menggunakan DenseNet121
 **7.License**
 
 Bebas dipakai oleh siapapun, tidak perlu credit apapun, hanya tugas kuliah, Open License
+
 **8.Cara Deploy To SreamLit**
 
 Deploy ke https://share.streamlit.io
@@ -111,4 +114,4 @@ Main file: app.py
 
 4. Deploy
 
-Klik Deploy → Streamlit bakal mulai build environment berdasarkan requirements.txt.
+Klik Deploy → Streamlit akan mulai build environment berdasarkan requirements.txt.
