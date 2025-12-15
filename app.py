@@ -2,6 +2,8 @@ import streamlit as st
 import numpy as np
 from PIL import Image
 import onnxruntime as ort
+import requests
+import os
 
 st.set_page_config(page_title="Leafy — Plant Disease AI", layout="wide")
 
@@ -10,9 +12,17 @@ with open("assets/style.css") as f:
 
 @st.cache_resource
 def load_model():
-    return ort.InferenceSession("model.onnx")
+    url = "https://drive.google.com/uc?export=download&id=1KKrqA_xJI_NJcajcjMTJXTcg_7c2x6aQ"
+    file = "model.onnx"
+
+    if not os.path.exists(file):
+        r = requests.get(url)
+        open(file, "wb").write(r.content)
+
+    return ort.InferenceSession(file)
 
 session = load_model()
+
 
 class_names = [
     'Apple — Apple scab',
