@@ -3,7 +3,7 @@ import streamlit as st
 st.set_page_config(page_title="Disease Description", page_icon="📘")
 
 st.title("📘 Plant Disease Description")
-st.write("Penjelasan lengkap untuk setiap class yang digunakan model DenseNet121 lo.")
+st.write("Penjelasan lengkap untuk setiap class yang digunakan model DenseNet121.")
 
 
 st.markdown("""
