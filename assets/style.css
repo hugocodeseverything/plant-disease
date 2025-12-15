@@ -1,88 +1,82 @@
-body {
-    background-color: #0e1117;
+
+body, .main, .block-container {
+    background-color: #0c0f14 !important;
+    color: #ffffff !important;
 }
+
 
 [data-testid="stSidebar"] {
-    background-color: #0f1117 !important;
-    padding-top: 40px !important;
+    background-color: #0a0d10 !important;
 }
 
-[data-testid="stSidebar"] .css-1siy2j7,
-[data-testid="stSidebar"] .css-1siy2j7 a {
-    font-size: 22px !important;
+[data-testid="stSidebar"] * {
+    color: #eaeaea !important;
+    font-size: 20px !important;
     font-weight: 600 !important;
-    color: #d9d9d9 !important;
 }
 
-[data-testid="stSidebar"] .css-1siy2j7 .css-1v3fvcr {
-    background-color: #1f232b !important;
+/* Sidebar selected item */
+[data-testid="stSidebar"] .css-1v3fvcr, 
+[data-testid="stSidebar"] .css-1v3fvcr:hover {
+    background-color: #1a1f24 !important;
     border-radius: 10px !important;
-    color: #7df5a2 !important;
-    font-weight: 700 !important;
+    color: #ffffff !important;
 }
 
-section[data-testid="stSidebar"] .css-ng1t4o {
-    padding-left: 20px !important;
-}
-
-.sidebar-title {
-    font-size: 32px;
-    font-weight: 800;
-    color: #7df5a2;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.sidebar-sub {
-    font-size: 15px;
-    text-align: center;
-    color: #bbb;
-    margin-top: -10px;
-    margin-bottom: 30px;
-}
-
+/* Main titles */
 .title-main {
-    font-size: 45px;
+    font-size: 52px;
     font-weight: 800;
-    color: #81f7a3;
+    color: #ffffff;
+    text-align: center;
 }
 
 .subtitle {
-    color: #aaa;
-    font-size: 17px;
-    margin-top: -10px;
+    font-size: 20px;
+    color: #bbbbbb;
+    text-align: center;
+    margin-top: -8px;
+    margin-bottom: 25px;
 }
+
+/* Upload area */
+.css-1n76uvr, .css-1n76uvr * {
+    background-color: #15191e !important;
+    color: white !important;
+}
+
 
 .main-card {
-    background: #161b22;
+    background-color: #151a1f;
     padding: 35px;
-    border-radius: 20px;
+    border-radius: 18px;
     margin-bottom: 20px;
-    box-shadow: 0 0 20px rgba(0,255,150,0.08);
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
 }
 
+/* Prediction text */
 .pred-title {
     font-size: 32px;
     font-weight: 700;
-    color: #81f7a3;
+    color: #ffffff;
 }
 
 .pred-sub {
     font-size: 18px;
-    color: #ccc;
+    color: #d2d2d2;
 }
+
 
 .top5-title {
     font-size: 22px;
-    color: #81f7a3;
-    margin-top: 20px;
-    margin-bottom: 10px;
     font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 12px;
 }
 
 .top5-card {
-    background: #111418;
-    padding: 12px;
+    background: #101317;
+    padding: 12px 15px;
     border-radius: 12px;
     margin-bottom: 10px;
     display: flex;
@@ -91,11 +85,49 @@ section[data-testid="stSidebar"] .css-ng1t4o {
 }
 
 .top5-label {
-    color: #ddd;
+    color: #ffffff;
     font-size: 16px;
 }
 
 .top5-conf {
-    color: #81f7a3;
-    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* Buttons */
+button, .stButton>button {
+    background-color: transparent !important;
+    color: #ffffff !important;
+    border: 1px solid #ffffff !important;
+    border-radius: 10px !important;
+    padding: 8px 18px !important;
+}
+
+button:hover, .stButton>button:hover {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+
+input, textarea {
+    background-color: #1b1f26 !important;
+    color: #ffffff !important;
+    border: 1px solid #444 !important;
+}
+
+
+.css-1cpxqw2, .css-1cpxqw2 * {
+    background-color: #15191e !important;
+    color: #ffffff !important;
+}
+
+/* File uploader drag area */
+[data-testid="stFileUploadDropzone"] {
+    background-color: #15191e !important;
+    border: 2px dashed #3c424a !important;
+}
+
+[data-testid="stFileUploadDropzone"] * {
+    color: #ffffff !important;
 }
