@@ -78,7 +78,6 @@ FUN_FACTS = {
     "Tomato___healthy": "Tomat sehat cenderung berbau khas ketika diremas sedikit."
 }
 
-# === Auto-generate cards ===
 for cls, fact in FUN_FACTS.items():
     pretty = cls.replace("___", " — ").replace("_", " ")
     st.markdown(f"""
