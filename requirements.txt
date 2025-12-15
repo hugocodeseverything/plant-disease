@@ -1,5 +1,4 @@
-tflite-runtime
+onnxruntime
 numpy
-Pillow
 streamlit
-
+Pillow
