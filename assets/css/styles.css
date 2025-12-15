@@ -1,0 +1,107 @@
+body {
+    background-color: #0e1117;
+}
+
+[data-testid="stSidebar"] {
+    background-color: #0f1117 !important;
+    padding-top: 40px !important;
+}
+
+[data-testid="stSidebar"] .css-1siy2j7,
+[data-testid="stSidebar"] .css-1siy2j7 a {
+    font-size: 22px !important;
+    font-weight: 600 !important;
+    color: #d9d9d9 !important;
+}
+
+[data-testid="stSidebar"] .css-1siy2j7 .css-1v3fvcr {
+    background-color: #1f232b !important;
+    border-radius: 10px !important;
+    color: #7df5a2 !important;
+    font-weight: 700 !important;
+}
+
+section[data-testid="stSidebar"] .css-ng1t4o {
+    padding-left: 20px !important;
+}
+
+.sidebar-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #7df5a2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar-sub {
+    font-size: 15px;
+    text-align: center;
+    color: #bbb;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.title-main {
+    font-size: 45px;
+    font-weight: 800;
+    color: #81f7a3;
+}
+
+.subtitle {
+    color: #aaa;
+    font-size: 17px;
+    margin-top: -10px;
+}
+
+.main-card {
+    background: #161b22;
+    padding: 35px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(0,255,150,0.08);
+}
+
+.pred-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #81f7a3;
+}
+
+.pred-sub {
+    font-size: 18px;
+    color: #ccc;
+}
+
+.top5-title {
+    font-size: 22px;
+    color: #81f7a3;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.top5-card {
+    background: #111418;
+    padding: 12px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.top5-label {
+    color: #ddd;
+    font-size: 16px;
+}
+
+.top5-conf {
+    color: #81f7a3;
+    font-weight: 600;
+}
+
+
+
+
+
+
