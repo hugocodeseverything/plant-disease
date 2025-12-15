@@ -1,133 +1,101 @@
 
 body, .main, .block-container {
-    background-color: #0c0f14 !important;
-    color: #ffffff !important;
-}
-
-
-[data-testid="stSidebar"] {
-    background-color: #0a0d10 !important;
-}
-
-[data-testid="stSidebar"] * {
-    color: #eaeaea !important;
-    font-size: 20px !important;
-    font-weight: 600 !important;
-}
-
-/* Sidebar selected item */
-[data-testid="stSidebar"] .css-1v3fvcr, 
-[data-testid="stSidebar"] .css-1v3fvcr:hover {
-    background-color: #1a1f24 !important;
-    border-radius: 10px !important;
-    color: #ffffff !important;
-}
-
-/* Main titles */
-.title-main {
-    font-size: 52px;
-    font-weight: 800;
-    color: #ffffff;
-    text-align: center;
-}
-
-.subtitle {
-    font-size: 20px;
-    color: #bbbbbb;
-    text-align: center;
-    margin-top: -8px;
-    margin-bottom: 25px;
-}
-
-/* Upload area */
-.css-1n76uvr, .css-1n76uvr * {
-    background-color: #15191e !important;
-    color: white !important;
-}
-
-
-.main-card {
-    background-color: #151a1f;
-    padding: 35px;
-    border-radius: 18px;
-    margin-bottom: 20px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.6);
-}
-
-/* Prediction text */
-.pred-title {
-    font-size: 32px;
-    font-weight: 700;
-    color: #ffffff;
-}
-
-.pred-sub {
-    font-size: 18px;
-    color: #d2d2d2;
-}
-
-
-.top5-title {
-    font-size: 22px;
-    font-weight: 600;
-    color: #ffffff;
-    margin-bottom: 12px;
-}
-
-.top5-card {
-    background: #101317;
-    padding: 12px 15px;
-    border-radius: 12px;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: space-between;
-    box-shadow: 0 0 10px rgba(0,0,0,0.4);
-}
-
-.top5-label {
-    color: #ffffff;
-    font-size: 16px;
-}
-
-.top5-conf {
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 700;
-}
-
-/* Buttons */
-button, .stButton>button {
-    background-color: transparent !important;
-    color: #ffffff !important;
-    border: 1px solid #ffffff !important;
-    border-radius: 10px !important;
-    padding: 8px 18px !important;
-}
-
-button:hover, .stButton>button:hover {
     background-color: #ffffff !important;
     color: #000000 !important;
 }
 
-
-input, textarea {
-    background-color: #1b1f26 !important;
-    color: #ffffff !important;
-    border: 1px solid #444 !important;
+[data-testid="stSidebar"] {
+    background-color: #f3f5f8 !important;
 }
 
 
-.css-1cpxqw2, .css-1cpxqw2 * {
-    background-color: #15191e !important;
-    color: #ffffff !important;
+[data-testid="stSidebar"] * {
+    color: #000000 !important;
+    font-size: 19px !important;
+    font-weight: 600 !important;
 }
 
-/* File uploader drag area */
+/* Sidebar selected item */
+[data-testid="stSidebar"] .css-1v3fvcr {
+    background-color: #e1e6ef !important;
+    border-radius: 10px !important;
+    color: #000000 !important;
+}
+
+/* Title */
+.title-main {
+    font-size: 48px;
+    font-weight: 800;
+    color: #000000;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #444444;
+    text-align: center;
+    margin-top: -8px;
+    margin-bottom: 20px;
+}
+
+/* Cards */
+.main-card {
+    background-color: #f6f7fa;
+    padding: 30px;
+    border-radius: 18px;
+    margin-bottom: 20px;
+    border: 1px solid #d4d7dd;
+}
+
+/* Prediction text */
+.pred-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.pred-sub {
+    font-size: 17px;
+    color: #333333;
+}
+
+/* Up next: top5 */
+.top5-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.top5-card {
+    background: #ffffff;
+    padding: 12px 15px;
+    border-radius: 12px;
+    border: 1px solid #dadada;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
 [data-testid="stFileUploadDropzone"] {
-    background-color: #15191e !important;
-    border: 2px dashed #3c424a !important;
+    background-color: #f7f9fc !important;
+    border: 2px dashed #c9ced6 !important;
 }
 
 [data-testid="stFileUploadDropzone"] * {
+    color: #444 !important;
+}
+
+button, .stButton>button {
+    background-color: transparent !important;
+    color: #000000 !important;
+    border: 2px solid #000000 !important;
+    border-radius: 8px !important;
+    padding: 8px 16px !important;
+    font-weight: 600 !important;
+}
+
+button:hover, .stButton>button:hover {
+    background-color: #000000 !important;
     color: #ffffff !important;
 }
+
