@@ -5,7 +5,13 @@ import onnxruntime as ort
 import requests
 import os
 
-st.set_page_config(page_title="Leafy — Plant Disease AI", layout="wide")
+
+st.set_page_config(
+    page_title="Prediction Machine",
+    page_icon="🌿",
+    layout="wide"
+)
+
 
 with open("assets/style.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
