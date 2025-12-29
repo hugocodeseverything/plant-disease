@@ -35,7 +35,7 @@ st.markdown("""
 
 
 st.title("Plant Disease Fun Facts")
-st.write("Fakta menarik berdasarkan *38 class* yang dipakai model DenseNet lo.")
+st.write("Fakta menarik berdasarkan 38 class yang dipakai model DenseNet.")
 
 FUN_FACTS = {
     "Apple___Apple_scab": "Apple scab disebabkan oleh jamur Venturia inaequalis, yang menimbulkan bercak berwarna gelap menyerupai karat pada permukaan daun dan buah.",
